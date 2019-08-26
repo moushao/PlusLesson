@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".lesson6.TestViewActivity">
 
-    <com.mous.pluslesson.lesson6.view.TestView
+    <com.mous.pluslesson.lesson6.view.AvatarView
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 </android.support.constraint.ConstraintLayout>
