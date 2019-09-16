@@ -44,7 +44,7 @@ public class AvatarView extends View {
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
-
+        
         canvas.drawOval(getWidth() / 2-bitmap.getWidth(), getHeight() / 2-bitmap.getHeight(), getWidth() / 2 + bitmap.getWidth(), getHeight() / 2 + bitmap.getHeight(), 
                 paint);
        // int saved = canvas.saveLayer(savedArea, paint);
